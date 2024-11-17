@@ -1,0 +1,10 @@
+/* Estilo para todos los inputs del formulario */
+.input-personalizado {
+    border: 2px solid #6c757d; /* Color gris */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.input-personalizado:focus {
+    border-color: #007bff; /* Cambia a azul al enfocarse */
+    box-shadow: 0 0 5px #007bff;
+}
